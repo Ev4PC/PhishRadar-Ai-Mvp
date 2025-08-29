@@ -1,0 +1,22 @@
+# --- Python / venv
+.venv/
+backend/.pytest_cache/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+backend/.coverage
+backend/.mypy_cache/
+
+# --- Node
+frontend/node_modules/
+frontend/.vite/
+
+# --- OS / editor
+.DS_Store
+.vscode/
+*.log
+
+# --- Data/Modelos
+backend/data/
+backend/data/.keep
+backend/phishradar_core/model/*.pkl
